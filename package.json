@@ -1,0 +1,23 @@
+{
+    "name": "MQTT_Client_Webkit",
+    "main": "index.html",
+    "single-instance":true,
+    "window": {
+        "title": "MQTT Client Webkit",
+        "icon": "",
+        "toolbar": true,
+        "frame": true,
+        "show": true,
+        "position": "center",
+        "width": 1000,
+        "height": 510
+    },
+    "dependencies": {
+        "MD5": "*",
+        "mosca": "*",
+        "mqtt": "*"
+    },
+    "devDependencies": {},
+    "author": "Westley Harris <wharris@petsafe.net>"
+}
+
