@@ -44,7 +44,7 @@ function initClient(){
 
     client.on('connect', function(){
         _log('_______________________Connected as '+options.clientId+'___________________________');
-        client.subscribe("feeders/simply_feed/cmd/5C313E062AFF", {qos:1}, function(err, granted){
+        client.subscribe("devices/cc3200/0000000", {qos:1}, function(err, granted){
             if(err) _error("Subscribe error: " + err);
             else _log("Subscribed: " + JSON.stringify(granted));
         });
